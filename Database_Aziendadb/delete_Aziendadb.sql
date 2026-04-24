@@ -1,0 +1,15 @@
+-- ERASE DATABASE
+DROP DATABASE Aziendadb;
+
+USE master;
+
+-- ERASE TABLE
+DROP TABLE Clienti;
+DROP TABLE Ordini;
+DROP TABLE DettagliOrdine;
+DROP TABLE Progetti;
+DROP TABLE Reparti;
+DROP TABLE Assegnazioni;
+
+-- DELETE COLUMN
+ALTER TABLE Clienti DROP COLUMN Nome;
