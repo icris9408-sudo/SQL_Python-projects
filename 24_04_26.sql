@@ -138,33 +138,38 @@ INSERT INTO DettagliOrdine (OrdineID, Prodotto, Quantita, Prezzo_Unitario) VALUE
 ALTER TABLE Ordini
 ADD DettaglioID INT;
 
-SELECT * FROM Ordini;
+--------------------------------------------------- FUNZIONI MATEMATICHE ----------------------------------------------------
 
-UPDATE Ordini SET DettaglioID = 1 WHERE OrdineID = 1;
-UPDATE Ordini SET DettaglioID = 2 WHERE OrdineID = 2;
-UPDATE Ordini SET DettaglioID = 3 WHERE OrdineID = 3;
-UPDATE Ordini SET DettaglioID = 4 WHERE OrdineID = 4;
-UPDATE Ordini SET DettaglioID = 5 WHERE OrdineID = 5;
-UPDATE Ordini SET DettaglioID = 6 WHERE OrdineID = 6;
-UPDATE Ordini SET DettaglioID = 7 WHERE OrdineID = 7;
-UPDATE Ordini SET DettaglioID = 8 WHERE OrdineID = 8;
-UPDATE Ordini SET DettaglioID = 9 WHERE OrdineID = 9;
-UPDATE Ordini SET DettaglioID = 10 WHERE OrdineID = 10;
-UPDATE Ordini SET DettaglioID = 11 WHERE OrdineID = 11;
-UPDATE Ordini SET DettaglioID = 12 WHERE OrdineID = 12;
-UPDATE Ordini SET DettaglioID = 13 WHERE OrdineID = 13;
-UPDATE Ordini SET DettaglioID = 14 WHERE OrdineID = 14;
-UPDATE Ordini SET DettaglioID = 15 WHERE OrdineID = 15;
-UPDATE Ordini SET DettaglioID = 16 WHERE OrdineID = 16;
-UPDATE Ordini SET DettaglioID = 17 WHERE OrdineID = 17;
-UPDATE Ordini SET DettaglioID = 18 WHERE OrdineID = 18;
-UPDATE Ordini SET DettaglioID = 19 WHERE OrdineID = 19;
-UPDATE Ordini SET DettaglioID = 20 WHERE OrdineID = 20;
-UPDATE Ordini SET DettaglioID = 21 WHERE OrdineID = 21;
-UPDATE Ordini SET DettaglioID = 22 WHERE OrdineID = 22;
-UPDATE Ordini SET DettaglioID = 23 WHERE OrdineID = 23;
-UPDATE Ordini SET DettaglioID = 24 WHERE OrdineID = 24;
-UPDATE Ordini SET DettaglioID = 25 WHERE OrdineID = 25;
-UPDATE Ordini SET DettaglioID = 26 WHERE OrdineID = 26;
-UPDATE Ordini SET DettaglioID = 27 WHERE OrdineID = 27;
+-- COUNT il numero totale degli ordini
+SELECT 
+    SUM(Totale) AS 'Somma degli ordini'
+FROM Ordini;
 
+-- COUNT il numero totale degli ordini
+SELECT 
+    COUNT(*) AS 'Totale degli ordini'
+FROM Ordini;
+
+-- AVG per la media ordini
+SELECT 
+    AVG(Totale) AS 'La media degli ordini'
+FROM Ordini;
+
+-- MAX il numero massimo degli ordini
+SELECT 
+    MAX(Totale) AS 'Ordine massimo'
+FROM Ordini;
+
+-- MIN per il numero minimo di ordini
+SELECT 
+    MIN(Totale) AS 'Ordine minimo'
+FROM Ordini;
+
+-- COUNT, AVG, MIN, MAX, SUM 
+SELECT 
+    COUNT(*) AS 'Totale degli ordini',
+    AVG(Totale) AS 'La media degli ordini',
+    MIN(Totale) AS 'Ordine minimo',
+    MAX(Totale) AS 'Ordine massimo',
+    SUM(Totale) AS 'Somma degli ordini'
+FROM Ordini;

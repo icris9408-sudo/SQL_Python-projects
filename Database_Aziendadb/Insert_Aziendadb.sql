@@ -1,3 +1,6 @@
+            /*  ATTENZIONE -> Bisogna inserire le tabelle in ordine così come scritte, a causa delle key constrain */
+
+--------------------------------------------------- INSERT INTO Reparti ----------------------------------------------------
 INSERT INTO Reparti(Nome, Sede)
     VALUES 
     	('Communication', 'Milano'),
@@ -77,6 +80,8 @@ INSERT INTO Reparti(Nome, Sede)
     	('Produzione','Bari'),
     	('Management','Genova');
 
+--------------------------------------------------- INSERT INTO Dipendenti ----------------------------------------------------
+
 INSERT INTO Dipendenti(Nome, Cognome, Email, Stipendio, RepartoID, Data_Assunzione)
     VALUES  
     	('Mario','Rossi','m1@mail.com',2500,1,'2022-01-01'),
@@ -109,7 +114,9 @@ INSERT INTO Dipendenti(Nome, Cognome, Email, Stipendio, RepartoID, Data_Assunzio
     	('Francesca','Verdi','m28@mail.com',2600,28,'2022-01-28'),
     	('Claudio','Bianchi','m29@mail.com',2700,29,'2022-01-29'),
     	('Beatrice','Neri','m30@mail.com',2800,30,'2022-01-30');
-SELECT * FROM Dipendenti;
+
+--------------------------------------------------- INSERT INTO Clienti ----------------------------------------------------
+
 INSERT INTO Clienti(Nome, Email, Telefono) 
     VALUES
         ('Cliente1','c1@mail.com','3330000001'),
@@ -151,6 +158,8 @@ INSERT INTO Clienti(Nome, Email, Telefono)
         ('Cliente37','c37@mail.com','3330000029'),
         ('Cliente38','c38@mail.com','3330000030');
 
+--------------------------------------------------- INSERT INTO Progetti ----------------------------------------------------
+
 INSERT INTO Progetti (Nome, Budget, Data_Inizio, Data_Fine) 
     VALUES
     	('Proj1',1000,'2024-01-01','2024-02-01'),
@@ -184,6 +193,8 @@ INSERT INTO Progetti (Nome, Budget, Data_Inizio, Data_Fine)
     	('Proj29',29000,'2024-01-29','2024-03-01'),
     	('Proj30',30000,'2024-01-30','2024-03-02');
 
+--------------------------------------------------- INSERT INTO Assegnazioni ----------------------------------------------------
+
 INSERT INTO Assegnazioni(DipendenteID, ProgettoID, Ruolo) 
     VALUES
 	    (2,2,'Tester'),
@@ -216,6 +227,8 @@ INSERT INTO Assegnazioni(DipendenteID, ProgettoID, Ruolo)
 	    (29,29,'HR'),
 	    (30,30,'Manager'),
         (31,30,'Dev');
+
+--------------------------------------------------- INSERT INTO Ordini ----------------------------------------------------
 
 INSERT INTO Ordini(ClienteID, Data_Ordine, Totale)
     VALUES
@@ -276,6 +289,8 @@ INSERT INTO Ordini(ClienteID, Data_Ordine, Totale)
         (38,'2025-01-29',800)
 ;
 
+--------------------------------------------------- INSERT INTO DettagliOrdini ----------------------------------------------------
+
 INSERT INTO DettagliOrdine (OrdineID, Prodotto, Quantita, Prezzo_Unitario) 
     VALUES
         -- Ordine 2
@@ -313,3 +328,13 @@ INSERT INTO DettagliOrdine (OrdineID, Prodotto, Quantita, Prezzo_Unitario)
         -- Ordine 10
         (10,'Server',1,1500),
         (10,'Switch',1,200);
+
+INSERT INTO DettagliOrdine (OrdineID, Prodotto, Quantita, Prezzo_Unitario) 
+    VALUES
+        -- Ordine 11
+        (11,'PC',1,1500),
+        (11,'Switch',1,200),
+
+        -- Ordine 12
+        (12,'Custodia',1,1500),
+        (12,'HDMI',1,200);
