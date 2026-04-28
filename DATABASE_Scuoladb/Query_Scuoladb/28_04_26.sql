@@ -1,4 +1,7 @@
 /* Uso il database ScuolaDb per queste query */
+-- ATTIVAZIONE DATABASE
+USE ScuolaDb;
+
 -- VISUALIZZARE I DATI
 SELECT * FROM Aule; -- 30
 SELECT * FROM Corsi; -- 30
@@ -92,13 +95,26 @@ BEGIN
 	PRINT 'La data di nascita è presente'
 END;
 
--- 
+-- ESERCIZIO
+/* FASE 1: Controllo preliminare di integrità.
+   Verifichiamo subito se c'è almeno un'anomalia (una data mancante).
+   Il ragionamento qui è di ottimizzazione: usiamo IF EXISTS perché il motore SQL 
+   si ferma appena trova il primo record NULL, rendendo il controllo rapidissimo 
+   senza dover contare o leggere tutta la tabella.
+*/ 
 IF EXISTS(
 	SELECT 1
 	FROM Studenti 
 	WHERE DataNascita IS NULL
 	)
 BEGIN
+/* FASE 2: Gestione dell'anomalia (Report visivo).
+       Poiché il controllo precedente ha rilevato dei dati mancanti, generiamo un report.
+       Il ragionamento è che chi legge i dati ha bisogno di identificare rapidamente i record da correggere.
+       Invece di mostrare la data nuda e cruda (che sarebbe vuota per alcuni), creiamo 
+       la colonna parlante "Stato" usando il CASE, per evidenziare chiaramente la situazione 
+       di ogni singolo studente.
+    */
 	SELECT 
 		Nome, 
 		Cognome,
@@ -110,6 +126,12 @@ BEGIN
 END
 ELSE
 BEGIN
+	/* FASE 3: Ottimizzazione del caso ideale.
+       Se arriviamo qui, significa che non ci sono NULL (i dati sono perfetti).
+       Il ragionamento è evitare di sprecare risorse di sistema: non facciamo nessuna 
+       query SELECT (che su tabelle grandi sarebbe pesante), ma ci limitiamo a 
+       restituire un feedback testuale per confermare che è tutto in regola.
+    */
 	PRINT 'Tutti gli studenti hanno la data di nascita'
 END;
 --------------------------- 3. STORE PROCEDURE ---------------------------

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\crist\\Desktop\\SQL_Python projects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\crist\\Desktop\\SQL_Python projects\\DATABASE_Scuoladb\\Query_Scuoladb\\28_04_26.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DATABASE_Scuoladb\\Query_Scuoladb\\28_04_26.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\crist\\Desktop\\SQL_Python projects\\DATABASE_Scuoladb\\STORE PROCEDURES\\Stored_Procedures.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DATABASE_Scuoladb\\STORE PROCEDURES\\Stored_Procedures.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "28_04_26.sql - CRISTIAN_PICO\\SQLEXPRESS.ScuolaDb (CRISTIAN_PICO\\crist (54))",
-              "DocumentMoniker": "C:\\Users\\crist\\Desktop\\SQL_Python projects\\DATABASE_Scuoladb\\Query_Scuoladb\\28_04_26.sql",
-              "RelativeDocumentMoniker": "DATABASE_Scuoladb\\Query_Scuoladb\\28_04_26.sql",
-              "ToolTip": "C:\\Users\\crist\\Desktop\\SQL_Python projects\\DATABASE_Scuoladb\\Query_Scuoladb\\28_04_26.sql - CRISTIAN_PICO\\SQLEXPRESS.ScuolaDb (CRISTIAN_PICO\\crist (54))",
-              "RelativeToolTip": "DATABASE_Scuoladb\\Query_Scuoladb\\28_04_26.sql - CRISTIAN_PICO\\SQLEXPRESS.ScuolaDb (CRISTIAN_PICO\\crist (54))",
+              "Title": "Stored_Procedures.sql - CRISTIAN_PICO\\SQLEXPRESS.ScuolaDb (CRISTIAN_PICO\\crist (82))",
+              "DocumentMoniker": "C:\\Users\\crist\\Desktop\\SQL_Python projects\\DATABASE_Scuoladb\\STORE PROCEDURES\\Stored_Procedures.sql",
+              "RelativeDocumentMoniker": "DATABASE_Scuoladb\\STORE PROCEDURES\\Stored_Procedures.sql",
+              "ToolTip": "C:\\Users\\crist\\Desktop\\SQL_Python projects\\DATABASE_Scuoladb\\STORE PROCEDURES\\Stored_Procedures.sql - CRISTIAN_PICO\\SQLEXPRESS.ScuolaDb (CRISTIAN_PICO\\crist (82))",
+              "RelativeToolTip": "DATABASE_Scuoladb\\STORE PROCEDURES\\Stored_Procedures.sql - CRISTIAN_PICO\\SQLEXPRESS.ScuolaDb (CRISTIAN_PICO\\crist (82))",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-04-28T13:07:56.504Z",
-              "EditorCaption": " - CRISTIAN_PICO\\SQLEXPRESS.ScuolaDb (CRISTIAN_PICO\\crist (54))"
+              "WhenOpened": "2026-04-28T16:18:49.258Z",
+              "EditorCaption": " - CRISTIAN_PICO\\SQLEXPRESS.ScuolaDb (CRISTIAN_PICO\\crist (82))"
             }
           ]
         }

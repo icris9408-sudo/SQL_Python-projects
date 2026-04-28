@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\DATABASE_Scuoladb",
-    "\\DATABASE_Scuoladb\\Query_Scuoladb"
+    "\\DATABASE_Scuoladb\\Query_Scuoladb",
+    "\\DATABASE_Scuoladb\\STORE PROCEDURES"
   ],
-  "SelectedNode": "\\DATABASE_Scuoladb\\Inserimento_Dati.sql",
+  "SelectedNode": "\\DATABASE_Scuoladb\\STORE PROCEDURES\\sp_GestioneStudenti.sql",
   "PreviewInSolutionExplorer": false
 }
