@@ -1,3 +1,5 @@
+USE ScuolaDb;
+
 --Insert Studenti
 INSERT INTO Studenti (Nome, Cognome, DataNascita, Email, Telefono, CodiceFiscale)
 VALUES
@@ -213,10 +215,11 @@ VALUES
 (30,30,'2024-03-15','11:00','13:00');
 
 -- VISUALIZZARE I DATI
-SELECT * FROM Aule;
-SELECT * FROM Corsi;
-SELECT * FROM Docenti;
-SELECT * FROM DocentiCorso;
-SELECT * FROM Iscrizioni;
-SELECT * FROM Lezioni;
-SELECT * FROM Studenti;
+SELECT * FROM Aule; -- 30
+SELECT * FROM Corsi; -- 30
+SELECT * FROM Docenti; -- 30
+SELECT * FROM DocentiCorso; -- 30 Corso
+SELECT * FROM Iscrizioni; -- 28 studenti al corso
+SELECT * FROM Lezioni; -- 26 Corsi e Aule
+SELECT * FROM Studenti; -- 37
+

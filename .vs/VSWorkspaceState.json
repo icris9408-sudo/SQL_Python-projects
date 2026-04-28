@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\DATABASE_Scuoladb"
+    "\\DATABASE_Scuoladb",
+    "\\DATABASE_Scuoladb\\Query_Scuoladb"
   ],
-  "SelectedNode": "\\DATABASE_Scuoladb\\Creazione_Database_Tabelle.sql",
+  "SelectedNode": "\\DATABASE_Scuoladb\\Inserimento_Dati.sql",
   "PreviewInSolutionExplorer": false
 }

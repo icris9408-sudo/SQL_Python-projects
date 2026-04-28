@@ -35,21 +35,21 @@ WHERE ClienteID NOT IN
 
 -- Ordini sopra la media dei clienti
 SELECT * 
-    FROM Ordini AS o
-        WHERE Totale > 
-            (
-            SELECT 
-                AVG(Totale) AS "Al di sopra della media"
-            FROM Ordini AS oo
-            WHERE ClienteID = oo.ClienteID
-            );
+FROM Ordini AS o
+WHERE Totale > 
+      (
+      SELECT 
+          AVG(Totale) AS "Al di sopra della media"
+      FROM Ordini AS oo
+      WHERE ClienteID = oo.ClienteID
+      );
 
 -- media dei clienti
 SELECT 
     ClienteID,
     AVG(Totale) AS Media
-    FROM Ordini 
-    GROUP BY ClienteID;
+FROM Ordini 
+GROUP BY ClienteID;
 
 -- Query che restituisce la media dei Clienti confrontandoli con
 SELECT
@@ -57,23 +57,23 @@ SELECT
     o.ClienteID,
     o.Totale,
     m.MediaCliente
-    FROM Ordini AS o
-        INNER JOIN 
-        (
-            SELECT
-                ClienteID,
-                AVG(oo.Totale) AS MediaCliente
-            FROM Ordini AS oo
-            GROUP BY oo.ClienteID
-        ) AS M ON o.ClienteID = m.ClienteID
-        WHERE o.Totale > m.MediaCliente;
+FROM Ordini AS o
+    INNER JOIN 
+    (
+     SELECT
+         ClienteID,
+         AVG(oo.Totale) AS MediaCliente
+     FROM Ordini AS oo
+     GROUP BY oo.ClienteID
+    ) AS M ON o.ClienteID = m.ClienteID
+    WHERE o.Totale > m.MediaCliente;
 
 --------------------------- 3. DATA IN SQL SERVER ---------------------------
 -- Per recuperare gli ordini fatti negli ultimi 30 giorni
 SELECT 
     *
 FROM Ordini
-    WHERE Data_Ordine >= DATEADD(DAY, -30, GETDATE());
+WHERE Data_Ordine >= DATEADD(DAY, -30, GETDATE());
 
 -- Ordini per mese
 SELECT 
@@ -82,19 +82,14 @@ SELECT
     CONVERT(NVARCHAR, DAY(Data_Ordine)) AS "Giorno"
 FROM Ordini;
 
+-- Ordini clienti con colonna anno, mese, giorno, Nome completo del cliente
+
+
 -- Verificare la data di un'ordine basandoti sul ClienteID
 SELECT 
     *
 FROM Ordini
 GETDATE WHERE ClienteID = 6;
 
---------------------------- 4. TUTTI I JOIN (LEFT JOIN, RIGHT, INNER JOIN, JOIN)---------------------------
 
---------------------------- 5. CONDIZIONE IF/ELSE (CASE THEN) ---------------------------
-
---------------------------- 6. STORE PROCEDURE ---------------------------
-
---------------------------- 7. VIEW = VISTE ---------------------------
-
---------------------------- 8. BACKUP STANDARD E AUTOMATIZZAZIONE DEL DB ---------------------------
 
