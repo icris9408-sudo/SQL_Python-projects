@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\crist\\Desktop\\SQL_Python projects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\crist\\Desktop\\SQL_Python projects\\24_04_26.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:24_04_26.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\crist\\Desktop\\SQL_Python projects\\DATABASE_Scuoladb\\Inserimento_Dati.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DATABASE_Scuoladb\\Inserimento_Dati.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\crist\\Desktop\\SQL_Python projects\\23_04_26.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:23_04_26.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\crist\\Desktop\\SQL_Python projects\\DATABASE_Scuoladb\\Creazione_Database_Tabelle.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DATABASE_Scuoladb\\Creazione_Database_Tabelle.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "24_04_26.sql - CRISTIAN_PICO\\SQLEXPRESS.Aziendadb (CRISTIAN_PICO\\crist (57))",
-              "DocumentMoniker": "C:\\Users\\crist\\Desktop\\SQL_Python projects\\24_04_26.sql",
-              "RelativeDocumentMoniker": "24_04_26.sql",
-              "ToolTip": "C:\\Users\\crist\\Desktop\\SQL_Python projects\\24_04_26.sql - CRISTIAN_PICO\\SQLEXPRESS.Aziendadb (CRISTIAN_PICO\\crist (57))",
-              "RelativeToolTip": "24_04_26.sql - CRISTIAN_PICO\\SQLEXPRESS.Aziendadb (CRISTIAN_PICO\\crist (57))",
+              "DocumentIndex": 1,
+              "Title": "Creazione_Database_Tabelle.sql - CRISTIAN_PICO\\SQLEXPRESS.master (CRISTIAN_PICO\\crist (52))",
+              "DocumentMoniker": "C:\\Users\\crist\\Desktop\\SQL_Python projects\\DATABASE_Scuoladb\\Creazione_Database_Tabelle.sql",
+              "RelativeDocumentMoniker": "DATABASE_Scuoladb\\Creazione_Database_Tabelle.sql",
+              "ToolTip": "C:\\Users\\crist\\Desktop\\SQL_Python projects\\DATABASE_Scuoladb\\Creazione_Database_Tabelle.sql - CRISTIAN_PICO\\SQLEXPRESS.master (CRISTIAN_PICO\\crist (52))",
+              "RelativeToolTip": "DATABASE_Scuoladb\\Creazione_Database_Tabelle.sql - CRISTIAN_PICO\\SQLEXPRESS.master (CRISTIAN_PICO\\crist (52))",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-04-27T12:19:43.164Z",
-              "EditorCaption": " - CRISTIAN_PICO\\SQLEXPRESS.Aziendadb (CRISTIAN_PICO\\crist (57))"
+              "WhenOpened": "2026-04-28T12:26:20.163Z",
+              "EditorCaption": " - CRISTIAN_PICO\\SQLEXPRESS.master (CRISTIAN_PICO\\crist (52))"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "23_04_26.sql - CRISTIAN_PICO\\SQLEXPRESS.Aziendadb (CRISTIAN_PICO\\crist (58))",
-              "DocumentMoniker": "C:\\Users\\crist\\Desktop\\SQL_Python projects\\23_04_26.sql",
-              "RelativeDocumentMoniker": "23_04_26.sql",
-              "ToolTip": "C:\\Users\\crist\\Desktop\\SQL_Python projects\\23_04_26.sql - CRISTIAN_PICO\\SQLEXPRESS.Aziendadb (CRISTIAN_PICO\\crist (58))",
-              "RelativeToolTip": "23_04_26.sql - CRISTIAN_PICO\\SQLEXPRESS.Aziendadb (CRISTIAN_PICO\\crist (58))",
+              "DocumentIndex": 0,
+              "Title": "Inserimento_Dati.sql - CRISTIAN_PICO\\SQLEXPRESS.ScuolaDb (CRISTIAN_PICO\\crist (72))",
+              "DocumentMoniker": "C:\\Users\\crist\\Desktop\\SQL_Python projects\\DATABASE_Scuoladb\\Inserimento_Dati.sql",
+              "RelativeDocumentMoniker": "DATABASE_Scuoladb\\Inserimento_Dati.sql",
+              "ToolTip": "C:\\Users\\crist\\Desktop\\SQL_Python projects\\DATABASE_Scuoladb\\Inserimento_Dati.sql - CRISTIAN_PICO\\SQLEXPRESS.ScuolaDb (CRISTIAN_PICO\\crist (72))",
+              "RelativeToolTip": "DATABASE_Scuoladb\\Inserimento_Dati.sql - CRISTIAN_PICO\\SQLEXPRESS.ScuolaDb (CRISTIAN_PICO\\crist (72))",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-04-23T16:05:28.278Z",
-              "EditorCaption": " - CRISTIAN_PICO\\SQLEXPRESS.Aziendadb (CRISTIAN_PICO\\crist (58))"
+              "WhenOpened": "2026-04-28T12:22:25.813Z",
+              "EditorCaption": " - CRISTIAN_PICO\\SQLEXPRESS.ScuolaDb (CRISTIAN_PICO\\crist (72))"
             }
           ]
         }

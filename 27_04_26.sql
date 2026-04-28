@@ -80,7 +80,7 @@ SELECT
     CONVERT(NVARCHAR, YEAR(Data_Ordine)) AS "Anno",
     CONVERT(NVARCHAR, MONTH(Data_Ordine)) AS "Mese",
     CONVERT(NVARCHAR, DAY(Data_Ordine)) AS "Giorno"
-FROM Ordini
+FROM Ordini;
 
 -- Verificare la data di un'ordine basandoti sul ClienteID
 SELECT 
