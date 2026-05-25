@@ -31,9 +31,7 @@ END
 GO
 
 -- Inserisco i dati dello studente
-EXEC sp_InsertStudente 'Samira', 'Miranda', '1988/02/10', 'samira.miranda@gmail.com', '3935426213', 'MRDSMR88189PY000';
+-- EXEC sp_InsertStudente 'Samira', 'Miranda', '1988/02/10', 'samira.miranda@gmail.com', '3935426213', 'MRDSMR88189PY000';
 
 -- Faccio un update del nome
-EXEC sp_UpdateStudenteById 38, 'Sandra', 'Miranda', '1988/02/10', 'sandra.miranda@gmail.com', '3935426213', 'MRDSMR88189PY000';
-
-select * from Studenti
+-- EXEC sp_UpdateStudenteById 38, 'Sandra', 'Miranda', '1988/02/10', 'sandra.miranda@gmail.com', '3935426213', 'MRDSMR88189PY000';

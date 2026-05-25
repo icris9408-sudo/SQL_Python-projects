@@ -33,4 +33,4 @@ END
 GO
 
 -- Esecuzione della stored procedures
-EXEC sp_GestioneStudenti;
+-- EXEC sp_GestioneStudenti;

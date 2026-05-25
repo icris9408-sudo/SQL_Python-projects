@@ -13,4 +13,4 @@ GO
 
 
 -- Esecuzione della stored procedure
-EXEC sp_GetAllStudenti;
+-- EXEC sp_GetAllStudenti;
