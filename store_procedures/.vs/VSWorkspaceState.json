@@ -1,4 +1,11 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\sp_Corsi",
+    "\\sp_Docenti",
+    "\\sp_Iscrizioni",
+    "\\sp_Studenti"
+  ],
+  "SelectedNode": "\\sp_Studenti\\sp_UpdateStudenteById.sql",
   "PreviewInSolutionExplorer": false
 }

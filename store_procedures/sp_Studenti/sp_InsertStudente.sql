@@ -1,7 +1,7 @@
 -- =============================================
 -- Author:		<Author,,Name>
 -- Create date: <Create Date,,>
--- Description:	<Description,,>
+-- Description:	<Inserisci Studente>
 -- =============================================
 CREATE PROCEDURE sp_InsertStudente
 	-- Add the parameters for the stored procedure here
@@ -36,8 +36,6 @@ BEGIN
 END
 GO
 
--- Esecuzione della store procedure
--- EXEC sp_GetStudenteByName 'Samira';
 
--- query = EXEC sp_InsertStudente 'Samira', 'Miranda', '1988/02/10', 'samira.miranda@gmail.com', '3935426213', 'MRDSMR88189PY000';
--- EXEC sp_InsertStudente 'Samira', 'Miranda', '1988/02/10', 'samira.miranda@gmail.com', '3935426213', 'MRDSMR88189PY000';
+-- Comando store procedures
+-- EXEC sp_InsertStudente 31, 'Cyber Security Intermedio', 'Cyber Security Intermedio', '16', '67';

@@ -22,7 +22,7 @@ END
 GO
 
 -- Esecuzione della stored procedure
--- EXEC sp_GetStudenteByID; 
+-- EXEC sp_GetStudenteByID 1; 
 
 /* In conclusione le stored procedures sono funzioni che, una volta preparate, 
 possono richiamare queste istruzioni più e più volte senza dover riscrivere il codice originale, migliorando anche prestazioni e sicurezza.*/

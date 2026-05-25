@@ -4,24 +4,23 @@
 -- Description:	<Description,,>
 -- =============================================
 CREATE PROCEDURE sp_GetStudenteByName
-	-- Add the parameters for the stored procedure here
 	@Nome NVARCHAR(100)
 AS
 BEGIN
-	-- SET NOCOUNT ON added to prevent extra result sets from
-	-- interfering with SELECT statements.
 	SET NOCOUNT ON;
 
-    -- Insert statements for procedure here
 	SELECT 
 		StudenteId,
 		Nome + ' ' + Cognome AS 'Nome Completo',
-		ISNULL(CONVERT(NVARCHAR, DataNascita, 103), 'N/D') AS DataNascita,
-		ISNULL(CONVERT(NVARCHAR, Email, 103), 'N/E') AS Email,
-		ISNULL(CONVERT(NVARCHAR, Telefono), '000000') AS Telefono,
+		-- 103 va bene qui perché DataNascita è una data vera e propria
+		ISNULL(CONVERT(NVARCHAR(10), DataNascita, 103), 'N/D') AS DataNascita,
+		-- Rimosso il 103 e specificata la lunghezza per evitare troncamenti
+		ISNULL(CONVERT(NVARCHAR(100), Email), 'N/E') AS Email,
+		ISNULL(CONVERT(NVARCHAR(20), Telefono), '000000') AS Telefono,
 		ISNULL(CONVERT(CHAR(16), CodiceFiscale), 'CF-NULL') AS CodiceFiscale
 	FROM Studenti
-	WHERE Nome = @Nome
+	-- Usando LIKE e i percentuali cerchi anche per nome parziale (es. "Cri" trova "Cristian")
+	WHERE Nome LIKE '%' + @Nome + '%'
 END
 GO
 
