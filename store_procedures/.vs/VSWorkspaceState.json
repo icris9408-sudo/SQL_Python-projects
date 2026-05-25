@@ -6,6 +6,6 @@
     "\\sp_Iscrizioni",
     "\\sp_Studenti"
   ],
-  "SelectedNode": "\\sp_Studenti\\sp_UpdateStudenteById.sql",
+  "SelectedNode": "\\sp_Iscrizioni\\sp_InsertIscrizione.sql",
   "PreviewInSolutionExplorer": false
 }
