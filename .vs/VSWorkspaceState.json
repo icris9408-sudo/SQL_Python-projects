@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\DATABASE_Scuoladb",
-    "\\DATABASE_Scuoladb\\Query_Scuoladb",
-    "\\DATABASE_Scuoladb\\STORE PROCEDURES"
+    "\\store_procedures"
   ],
-  "SelectedNode": "\\DATABASE_Scuoladb\\STORE PROCEDURES\\sp_GestioneStudenti.sql",
+  "SelectedNode": "\\store_procedures\\sp_GetStudenteByID.sql",
   "PreviewInSolutionExplorer": false
 }
