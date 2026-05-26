@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\sp_Corsi",
-    "\\sp_Docenti",
-    "\\sp_Iscrizioni",
-    "\\sp_Studenti"
+    "\\sp_Lezioni"
   ],
-  "SelectedNode": "\\sp_Iscrizioni\\sp_InsertIscrizione.sql",
+  "SelectedNode": "\\sp_Lezioni\\sp_InsertLezioni.sql",
   "PreviewInSolutionExplorer": false
 }
